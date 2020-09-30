@@ -1,0 +1,83 @@
+.header-banner {
+    background-image: url("images\banner.jpg");
+    background-position: center;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgb(70, 68, 68), rgb(167, 167, 167));
+    color: red;
+}
+
+.blog-header-logo {
+    font-family: 'Roboto';
+    color: red;
+}
+
+.fake {
+    color: red;
+}
+
+#register {
+
+    display: none;
+    }
+
+    #log {
+
+       
+        width: 200px;
+    }
+
+    #hidden{
+        display: none;
+    }
+
+@media only all and (min-width: 700px){
+#register {
+
+    display: block;
+    color: white;
+}
+
+
+
+
+}
+
+#log {
+
+       
+    width: 300px;
+}
+
+#hidden{
+    display:flex;
+}
+
+
+@media only all and (min-width: 960px){
+    #ban {
+    
+        order:1;
+        border-right: black;
+       
+    }
+
+    #hidden{
+        display:flex;
+    }
+    
+
+    #log {
+
+        order:-1;
+        width: 400px;
+        
+    }
+
+    .d-flex 
+    {
+        flex-wrap: nowrap;
+    }
+
+}
